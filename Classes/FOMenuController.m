@@ -61,7 +61,7 @@
     i = random() % i;
     word = [words objectAtIndex: i];
     
-    newFloater = [[FOFloaterController alloc] init];
+    newFloater = [[FOFloaterController alloc] initWithMenuController:self];
     if (![NSBundle loadNibNamed: @"FOFloater" owner: newFloater]) {
         NSLog(@"Error loading Nib for document!");
     } else {
@@ -82,8 +82,8 @@
     FOFloaterController *tempFloater = nil;
     if([sender tag] == 1) {
         if([NSApp keyWindow] !=nil) {
-            [myFloaters removeObjectIdenticalTo: [[NSApp keyWindow] controller]];
-            [[[NSApp keyWindow] controller]close]; 
+            [myFloaters removeObjectIdenticalTo: [[NSApp keyWindow] windowController]];
+            [[[NSApp keyWindow] windowController] close]; 
         }
     } else {
         for(tempFloater in myFloaters) {
