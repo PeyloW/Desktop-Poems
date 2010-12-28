@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6DD254312C9FE3700BFDD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD254212C9FE3700BFDD5E /* Cocoa.framework */; };
 		A6DD254612C9FE4F00BFDD5E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		A6DD254712C9FE4F00BFDD5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		A6DD254812C9FE4F00BFDD5E /* FOFloater.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59AF64303F97FD901D2BDCD /* FOFloater.nib */; };
@@ -32,7 +31,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		A6DD253B12C9FE2700BFDD5E /* Desktop Poems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desktop Poems.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DD253D12C9FE2700BFDD5E /* Desktop Poems-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desktop Poems-Info.plist"; sourceTree = "<group>"; };
-		A6DD254212C9FE3700BFDD5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F528607603F9920A01D2BDCD /* FOFloaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOFloaterController.h; path = Classes/FOFloaterController.h; sourceTree = "<group>"; };
 		F528607703F9920A01D2BDCD /* FOFloaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOFloaterController.m; path = Classes/FOFloaterController.m; sourceTree = "<group>"; };
 		F528607A03F9921701D2BDCD /* FOFloater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOFloater.h; path = Classes/FOFloater.h; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6DD254312C9FE3700BFDD5E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +109,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				A6DD253D12C9FE2700BFDD5E /* Desktop Poems-Info.plist */,
-				A6DD254212C9FE3700BFDD5E /* Cocoa.framework */,
 			);
 			name = DesktopPoems;
 			sourceTree = "<group>";
@@ -121,6 +116,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A6DD253D12C9FE2700BFDD5E /* Desktop Poems-Info.plist */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
