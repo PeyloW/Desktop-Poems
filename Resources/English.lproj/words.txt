@@ -1,0 +1,32 @@
+I, you, he, she, it, we, they, them, their,
+my, your, his, her, our, their,
+am, am, are, are, are, are, is, is, is, is,
+
+the, the, the, the,
+_s, _s, _s, _s, _'s, _'s, _'s, _'s, ity, iest, ier,
+
+happy, sad, light, dark, love, hate, like,
+warm, cold, friendly, hospital, pretty, ugly, cute, 
+red, green, blue, orange, yellow, black, white, purple,
+
+open, close, far, near,
+one, two, three, dozen, many, few,
+
+take, give, walk, sneak, run, use, play, write, read,
+catch, miss, yearn, see, watch, pass, paint, jump, trip, fall,
+
+morning_, day_, evening_, night_,
+
+winter_, spring_, summer_, autum_,
+rain_, snow_, fog_, 
+wet, dry, windy,
+
+life, death, live, die, grow, wither,
+
+sun_, moon_, star_, planet_,
+shoe_, jacket_, trouser_, sock_, shirt_,
+cat_, dog_, horse_, monkey_, cow_, elephant_,
+water_, beer_, wine_, liquor_,
+glass_, plate_, knife_, fork_, spoon_,
+head_, hand_, arm_, leg_, foot_, butt_, bosom_,
+heart, eye, soul, spirit 
