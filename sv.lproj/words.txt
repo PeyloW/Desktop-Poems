@@ -1,0 +1,36 @@
+jag, du, han_, hon, den_, det_, vi, de,
+min, din, honom, henne_, vår_, deras,
+är, är, är, är, är, är, 
+
+en, en, en, ett, ett, ett,
+
+_en, _en, _en, _en, _et, _et, _et, _et,
+_r, _r, _r, _r, _s, _s, _s, _s, _are, _are, _are,
+
+glad, ledsen, ljus, mörk, älska, hata, gilla,
+varm, kall, vänlig, givmild, vacker, ful, söt, 
+röd, grön, blå, orange, gul, svart, vit, lila,
+
+öppen, stängd, avlägsen, nära,
+en, två, tre, dussin, mångam, få,
+
+ta_, ge_, gå_, smyga, springa, använda, spela_, leka, skriva, läsa,
+fånga_, missa_, längta_, se_, studera_, passera_, måla_, hoppa_, snubbla_, falla,
+leker, läser, springer, använder, skriver, faller,
+
+morgon_, dag_, kväll_, natt_,
+
+vinter_, vår_, sommar_, höst_,
+regn_, snö_, dimma_, 
+blöt_, torr, blåsig,
+
+liv, död, leva, dö_, växa, vissna_,
+lever, växer,
+
+sol_, måne_, stjärna_, planet_,
+sko_, jacka_, byxor_, strumpa_, tröja_,
+katt_, hund_, häst_, apa_, ko_, elefant_,
+vatten_, öl_, vin_, sprit_,
+glas_, talrik_, kniv_, gaffel_, sked_,
+huvud_, hand_, arm_, ben_, fot_, rumba_, bröst_,
+hjärta, ögon, själ, ande 

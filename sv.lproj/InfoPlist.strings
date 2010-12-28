@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Skrivbordspoesi";
+CFBundleShortVersionString = "Skrivbordspoesi version 1.0.1";
+CFBundleGetInfoString = "Skrivbordspoesi version 1.0.1, Äganderätt 2003-06 Fredrik Olsson.";
+NSHumanReadableCopyright = "Äganderätt 2003-06 Fredrik Olsson.";

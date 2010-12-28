@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DD254312C9FE3700BFDD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD254212C9FE3700BFDD5E /* Cocoa.framework */; };
+		A6DD254612C9FE4F00BFDD5E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		A6DD254712C9FE4F00BFDD5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		A6DD254812C9FE4F00BFDD5E /* MyFloater.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59AF64303F97FD901D2BDCD /* MyFloater.nib */; };
+		A6DD254912C9FE4F00BFDD5E /* left.tif in Resources */ = {isa = PBXBuildFile; fileRef = F528608603F9933201D2BDCD /* left.tif */; };
+		A6DD254A12C9FE4F00BFDD5E /* middle.tif in Resources */ = {isa = PBXBuildFile; fileRef = F528608803F9934601D2BDCD /* middle.tif */; };
+		A6DD254B12C9FE4F00BFDD5E /* right.tif in Resources */ = {isa = PBXBuildFile; fileRef = F528608A03F9934C01D2BDCD /* right.tif */; };
+		A6DD254C12C9FE4F00BFDD5E /* Desktop Poems Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5CCECAB03FABF3801D2BDCD /* Desktop Poems Icon.icns */; };
+		A6DD254D12C9FE4F00BFDD5E /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5CCECB603FAC47501D2BDCD /* words.txt */; };
+		A6DD254E12C9FE5900BFDD5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		A6DD254F12C9FE5900BFDD5E /* FOMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59AF63E03F971EF01D2BDCD /* FOMenuController.m */; };
+		A6DD255012C9FE5900BFDD5E /* FOFloaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = F528607703F9920A01D2BDCD /* FOFloaterController.m */; };
+		A6DD255112C9FE5900BFDD5E /* FOFloater.m in Sources */ = {isa = PBXBuildFile; fileRef = F528607B03F9921701D2BDCD /* FOFloater.m */; };
+		A6DD255212C9FE5900BFDD5E /* FOView.m in Sources */ = {isa = PBXBuildFile; fileRef = F528607E03F9922901D2BDCD /* FOView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		A6DD253B12C9FE2700BFDD5E /* Desktop Poems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desktop Poems.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DD253D12C9FE2700BFDD5E /* Desktop Poems-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desktop Poems-Info.plist"; sourceTree = "<group>"; };
+		A6DD254212C9FE3700BFDD5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F528607603F9920A01D2BDCD /* FOFloaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOFloaterController.h; path = Classes/FOFloaterController.h; sourceTree = "<group>"; };
+		F528607703F9920A01D2BDCD /* FOFloaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOFloaterController.m; path = Classes/FOFloaterController.m; sourceTree = "<group>"; };
+		F528607A03F9921701D2BDCD /* FOFloater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOFloater.h; path = Classes/FOFloater.h; sourceTree = "<group>"; };
+		F528607B03F9921701D2BDCD /* FOFloater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOFloater.m; path = Classes/FOFloater.m; sourceTree = "<group>"; };
+		F528607E03F9922901D2BDCD /* FOView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOView.m; path = Classes/FOView.m; sourceTree = "<group>"; };
+		F528607F03F9922901D2BDCD /* FOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOView.h; path = Classes/FOView.h; sourceTree = "<group>"; };
+		F528608603F9933201D2BDCD /* left.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = left.tif; path = Resources/left.tif; sourceTree = "<group>"; };
+		F528608803F9934601D2BDCD /* middle.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = middle.tif; path = Resources/middle.tif; sourceTree = "<group>"; };
+		F528608A03F9934C01D2BDCD /* right.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = right.tif; path = Resources/right.tif; sourceTree = "<group>"; };
+		F59AF63D03F971EF01D2BDCD /* FOMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOMenuController.h; path = Classes/FOMenuController.h; sourceTree = "<group>"; };
+		F59AF63E03F971EF01D2BDCD /* FOMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOMenuController.m; path = Classes/FOMenuController.m; sourceTree = "<group>"; };
+		F59AF64303F97FD901D2BDCD /* MyFloater.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MyFloater.nib; path = Classes/MyFloater.nib; sourceTree = "<group>"; };
+		F5CCECAB03FABF3801D2BDCD /* Desktop Poems Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Desktop Poems Icon.icns"; path = "Resources/Desktop Poems Icon.icns"; sourceTree = "<group>"; };
+		F5CCECB003FAC0DD01D2BDCD /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = English.lproj/words.txt; sourceTree = "<group>"; };
+		F5CCECB803FAC48901D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sv; path = sv.lproj/words.txt; sourceTree = "<group>"; };
+		F5CCECB903FAC87401D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5CCECBA03FAC8F801D2BDCD /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/MainMenu.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DD253912C9FE2700BFDD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DD254312C9FE3700BFDD5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F59AF63D03F971EF01D2BDCD /* FOMenuController.h */,
+				F59AF63E03F971EF01D2BDCD /* FOMenuController.m */,
+				F528607603F9920A01D2BDCD /* FOFloaterController.h */,
+				F528607703F9920A01D2BDCD /* FOFloaterController.m */,
+				F528607F03F9922901D2BDCD /* FOView.h */,
+				F528607E03F9922901D2BDCD /* FOView.m */,
+				F528607A03F9921701D2BDCD /* FOFloater.h */,
+				F528607B03F9921701D2BDCD /* FOFloater.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DD253B12C9FE2700BFDD5E /* Desktop Poems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DesktopPoems */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				A6DD253D12C9FE2700BFDD5E /* Desktop Poems-Info.plist */,
+				A6DD254212C9FE3700BFDD5E /* Cocoa.framework */,
+			);
+			name = DesktopPoems;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				F59AF64303F97FD901D2BDCD /* MyFloater.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F528608603F9933201D2BDCD /* left.tif */,
+				F528608803F9934601D2BDCD /* middle.tif */,
+				F528608A03F9934C01D2BDCD /* right.tif */,
+				F5CCECAB03FABF3801D2BDCD /* Desktop Poems Icon.icns */,
+				F5CCECB603FAC47501D2BDCD /* words.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DD253A12C9FE2700BFDD5E /* Desktop Poems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DD254112C9FE2800BFDD5E /* Build configuration list for PBXNativeTarget "Desktop Poems" */;
+			buildPhases = (
+				A6DD253712C9FE2700BFDD5E /* Resources */,
+				A6DD253812C9FE2700BFDD5E /* Sources */,
+				A6DD253912C9FE2700BFDD5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desktop Poems";
+			productName = "Desktop Poems";
+			productReference = A6DD253B12C9FE2700BFDD5E /* Desktop Poems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Fredrik Olsson";
+			};
+			buildConfigurationList = A6EF125F09E186D100213EED /* Build configuration list for PBXProject "DesktopPoems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				sv,
+				zh_TW,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DesktopPoems */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DD253A12C9FE2700BFDD5E /* Desktop Poems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DD253712C9FE2700BFDD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DD254612C9FE4F00BFDD5E /* MainMenu.nib in Resources */,
+				A6DD254712C9FE4F00BFDD5E /* InfoPlist.strings in Resources */,
+				A6DD254812C9FE4F00BFDD5E /* MyFloater.nib in Resources */,
+				A6DD254912C9FE4F00BFDD5E /* left.tif in Resources */,
+				A6DD254A12C9FE4F00BFDD5E /* middle.tif in Resources */,
+				A6DD254B12C9FE4F00BFDD5E /* right.tif in Resources */,
+				A6DD254C12C9FE4F00BFDD5E /* Desktop Poems Icon.icns in Resources */,
+				A6DD254D12C9FE4F00BFDD5E /* words.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DD253812C9FE2700BFDD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DD254E12C9FE5900BFDD5E /* main.m in Sources */,
+				A6DD254F12C9FE5900BFDD5E /* FOMenuController.m in Sources */,
+				A6DD255012C9FE5900BFDD5E /* FOFloaterController.m in Sources */,
+				A6DD255112C9FE5900BFDD5E /* FOFloater.m in Sources */,
+				A6DD255212C9FE5900BFDD5E /* FOView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				F5CCECB903FAC87401D2BDCD /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				F5CCECBA03FAC8F801D2BDCD /* sv */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		F5CCECB603FAC47501D2BDCD /* words.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CCECB003FAC0DD01D2BDCD /* words.txt */,
+				F5CCECB803FAC48901D2BDCD /* sv */,
+			);
+			name = words.txt;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DD253E12C9FE2800BFDD5E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Desktop Poems-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Desktop Poems";
+			};
+			name = Development;
+		};
+		A6DD253F12C9FE2800BFDD5E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Desktop Poems-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Desktop Poems";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		A6DD254012C9FE2800BFDD5E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Desktop Poems-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Desktop Poems";
+			};
+			name = Default;
+		};
+		A6EF126009E186D100213EED /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		A6EF126109E186D100213EED /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		A6EF126209E186D100213EED /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DD254112C9FE2800BFDD5E /* Build configuration list for PBXNativeTarget "Desktop Poems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DD253E12C9FE2800BFDD5E /* Development */,
+				A6DD253F12C9FE2800BFDD5E /* Deployment */,
+				A6DD254012C9FE2800BFDD5E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		A6EF125F09E186D100213EED /* Build configuration list for PBXProject "DesktopPoems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EF126009E186D100213EED /* Development */,
+				A6EF126109E186D100213EED /* Deployment */,
+				A6EF126209E186D100213EED /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
