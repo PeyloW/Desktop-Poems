@@ -45,7 +45,7 @@
     word = [words objectAtIndex: i];
     
     newFloater = [[FOFloaterController alloc] init];
-    if (![NSBundle loadNibNamed: @"MyFloater" owner: newFloater]) {
+    if (![NSBundle loadNibNamed: @"FOFloater" owner: newFloater]) {
         NSLog(@"Error loading Nib for document!");
     } else {
         [newFloater setText: word];

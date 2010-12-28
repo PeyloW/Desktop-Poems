@@ -10,7 +10,7 @@
 		A6DD254312C9FE3700BFDD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DD254212C9FE3700BFDD5E /* Cocoa.framework */; };
 		A6DD254612C9FE4F00BFDD5E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		A6DD254712C9FE4F00BFDD5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		A6DD254812C9FE4F00BFDD5E /* MyFloater.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59AF64303F97FD901D2BDCD /* MyFloater.nib */; };
+		A6DD254812C9FE4F00BFDD5E /* FOFloater.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59AF64303F97FD901D2BDCD /* FOFloater.nib */; };
 		A6DD254912C9FE4F00BFDD5E /* left.tif in Resources */ = {isa = PBXBuildFile; fileRef = F528608603F9933201D2BDCD /* left.tif */; };
 		A6DD254A12C9FE4F00BFDD5E /* middle.tif in Resources */ = {isa = PBXBuildFile; fileRef = F528608803F9934601D2BDCD /* middle.tif */; };
 		A6DD254B12C9FE4F00BFDD5E /* right.tif in Resources */ = {isa = PBXBuildFile; fileRef = F528608A03F9934C01D2BDCD /* right.tif */; };
@@ -44,10 +44,10 @@
 		F528608A03F9934C01D2BDCD /* right.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = right.tif; path = Resources/right.tif; sourceTree = "<group>"; };
 		F59AF63D03F971EF01D2BDCD /* FOMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOMenuController.h; path = Classes/FOMenuController.h; sourceTree = "<group>"; };
 		F59AF63E03F971EF01D2BDCD /* FOMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOMenuController.m; path = Classes/FOMenuController.m; sourceTree = "<group>"; };
-		F59AF64303F97FD901D2BDCD /* MyFloater.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MyFloater.nib; path = Classes/MyFloater.nib; sourceTree = "<group>"; };
+		F59AF64303F97FD901D2BDCD /* FOFloater.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = FOFloater.nib; path = Resources/FOFloater.nib; sourceTree = "<group>"; };
 		F5CCECAB03FABF3801D2BDCD /* Desktop Poems Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Desktop Poems Icon.icns"; path = "Resources/Desktop Poems Icon.icns"; sourceTree = "<group>"; };
-		F5CCECB003FAC0DD01D2BDCD /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = English.lproj/words.txt; sourceTree = "<group>"; };
-		F5CCECB803FAC48901D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sv; path = sv.lproj/words.txt; sourceTree = "<group>"; };
+		F5CCECB003FAC0DD01D2BDCD /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = Resources/English.lproj/words.txt; sourceTree = "<group>"; };
+		F5CCECB803FAC48901D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sv; path = Resources/sv.lproj/words.txt; sourceTree = "<group>"; };
 		F5CCECB903FAC87401D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5CCECBA03FAC8F801D2BDCD /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
-				F59AF64303F97FD901D2BDCD /* MyFloater.nib */,
+				F59AF64303F97FD901D2BDCD /* FOFloater.nib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				F528608603F9933201D2BDCD /* left.tif */,
 				F528608803F9934601D2BDCD /* middle.tif */,
@@ -206,7 +206,7 @@
 			files = (
 				A6DD254612C9FE4F00BFDD5E /* MainMenu.nib in Resources */,
 				A6DD254712C9FE4F00BFDD5E /* InfoPlist.strings in Resources */,
-				A6DD254812C9FE4F00BFDD5E /* MyFloater.nib in Resources */,
+				A6DD254812C9FE4F00BFDD5E /* FOFloater.nib in Resources */,
 				A6DD254912C9FE4F00BFDD5E /* left.tif in Resources */,
 				A6DD254A12C9FE4F00BFDD5E /* middle.tif in Resources */,
 				A6DD254B12C9FE4F00BFDD5E /* right.tif in Resources */,
@@ -240,6 +240,7 @@
 				F5CCECB903FAC87401D2BDCD /* sv */,
 			);
 			name = InfoPlist.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
@@ -249,6 +250,7 @@
 				F5CCECBA03FAC8F801D2BDCD /* sv */,
 			);
 			name = MainMenu.nib;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F5CCECB603FAC47501D2BDCD /* words.txt */ = {
