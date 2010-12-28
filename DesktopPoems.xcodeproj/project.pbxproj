@@ -265,7 +265,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A6DD253E12C9FE2800BFDD5E /* Development */ = {
+		A6DD253E12C9FE2800BFDD5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,9 +287,9 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = "Desktop Poems";
 			};
-			name = Development;
+			name = Debug;
 		};
-		A6DD253F12C9FE2800BFDD5E /* Deployment */ = {
+		A6DD253F12C9FE2800BFDD5E /* Deploy */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,52 +311,23 @@
 				PRODUCT_NAME = "Desktop Poems";
 				ZERO_LINK = NO;
 			};
-			name = Deployment;
+			name = Deploy;
 		};
-		A6DD254012C9FE2800BFDD5E /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Desktop Poems-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "Desktop Poems";
-			};
-			name = Default;
-		};
-		A6EF126009E186D100213EED /* Development */ = {
+		A6EF126009E186D100213EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_ENABLE_OBJC_GC = required;
 				SDKROOT = macosx;
 			};
-			name = Development;
+			name = Debug;
 		};
-		A6EF126109E186D100213EED /* Deployment */ = {
+		A6EF126109E186D100213EED /* Deploy */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_ENABLE_OBJC_GC = required;
 				SDKROOT = macosx;
 			};
-			name = Deployment;
-		};
-		A6EF126209E186D100213EED /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_ENABLE_OBJC_GC = required;
-				SDKROOT = macosx;
-			};
-			name = Default;
+			name = Deploy;
 		};
 /* End XCBuildConfiguration section */
 
@@ -364,22 +335,20 @@
 		A6DD254112C9FE2800BFDD5E /* Build configuration list for PBXNativeTarget "Desktop Poems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6DD253E12C9FE2800BFDD5E /* Development */,
-				A6DD253F12C9FE2800BFDD5E /* Deployment */,
-				A6DD254012C9FE2800BFDD5E /* Default */,
+				A6DD253E12C9FE2800BFDD5E /* Debug */,
+				A6DD253F12C9FE2800BFDD5E /* Deploy */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Debug;
 		};
 		A6EF125F09E186D100213EED /* Build configuration list for PBXProject "DesktopPoems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6EF126009E186D100213EED /* Development */,
-				A6EF126109E186D100213EED /* Deployment */,
-				A6EF126209E186D100213EED /* Default */,
+				A6EF126009E186D100213EED /* Debug */,
+				A6EF126109E186D100213EED /* Deploy */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

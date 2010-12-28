@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>Desktop Poems Icon.icns	</string>
+	<string>Desktop Poems Icon</string>
 	<key>CFBundleIdentifier</key>
 	<string>se.peylow.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
