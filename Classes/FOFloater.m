@@ -19,10 +19,10 @@
 @implementation FOFloater
 
 - (id)initWithContentRect:(NSRect)contentRect styleMask:(unsigned int)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag {
-
+    
     // Vi anropar fšrŠlder klassen men sŠger att vi inte ska ha en namnlist
     NSWindow* result = [super initWithContentRect:contentRect styleMask:NSBorderlessWindowMask backing:NSBackingStoreBuffered defer:NO];
-
+    
     // VŒr bakgrundfŠrg Šr genomskinlig
     [result setBackgroundColor:[NSColor clearColor]];
     
@@ -46,11 +46,11 @@
 // …verlagra fšr att flytta runt fšnstret lite
 - (void)mouseDragged:(NSEvent *)theEvent
 {
-   NSPoint currentLocation;
-   NSPoint newOrigin;
-   NSRect  screenFrame = [[NSScreen mainScreen] frame];
-   NSRect  windowFrame = [self frame];
-
+    NSPoint currentLocation;
+    NSPoint newOrigin;
+    NSRect  screenFrame = [[NSScreen mainScreen] frame];
+    NSRect  windowFrame = [self frame];
+    
     // Var Šr musen nu?
     currentLocation = [self convertBaseToScreen:[self mouseLocationOutsideOfEventStream]];
     newOrigin.x = currentLocation.x - initialLocation.x;
@@ -58,7 +58,7 @@
     
     // Inte dras in under menyraden tack
     if( (newOrigin.y+windowFrame.size.height) > (screenFrame.origin.y+screenFrame.size.height) ){
-	newOrigin.y=screenFrame.origin.y + (screenFrame.size.height-windowFrame.size.height);
+        newOrigin.y=screenFrame.origin.y + (screenFrame.size.height-windowFrame.size.height);
     }
     
     // Tjosan, sŒ flyttar vi
@@ -68,12 +68,16 @@
 // Vi antar att gŒr musen ned sŒ ska hŠr flyttas
 - (void)mouseDown:(NSEvent *)theEvent
 {    
-    NSRect  windowFrame = [self frame];
-
-    // SŒ spara kordinaterna fšr senare.
-   initialLocation = [self convertBaseToScreen:[theEvent locationInWindow]];
-   initialLocation.x -= windowFrame.origin.x;
-   initialLocation.y -= windowFrame.origin.y;
+    if ([theEvent clickCount] > 1) {
+        [controller close];
+    } else {
+        
+        NSRect  windowFrame = [self frame];
+        // SŒ spara kordinaterna fšr senare.
+        initialLocation = [self convertBaseToScreen:[theEvent locationInWindow]];
+        initialLocation.x -= windowFrame.origin.x;
+        initialLocation.y -= windowFrame.origin.y;
+    }
 }
 
 @end

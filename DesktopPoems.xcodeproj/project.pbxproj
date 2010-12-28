@@ -46,8 +46,8 @@
 		F59AF63E03F971EF01D2BDCD /* FOMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOMenuController.m; path = Classes/FOMenuController.m; sourceTree = "<group>"; };
 		F59AF64303F97FD901D2BDCD /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/FOFloater.nib; sourceTree = "<group>"; };
 		F5CCECAB03FABF3801D2BDCD /* Desktop Poems Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Desktop Poems Icon.icns"; path = "Resources/Desktop Poems Icon.icns"; sourceTree = "<group>"; };
-		F5CCECB003FAC0DD01D2BDCD /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = Resources/English.lproj/words.txt; sourceTree = "<group>"; };
-		F5CCECB803FAC48901D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sv; path = Resources/sv.lproj/words.txt; sourceTree = "<group>"; };
+		F5CCECB003FAC0DD01D2BDCD /* words.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; name = words.txt; path = Resources/English.lproj/words.txt; sourceTree = "<group>"; };
+		F5CCECB803FAC48901D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; name = sv; path = Resources/sv.lproj/words.txt; sourceTree = "<group>"; };
 		F5CCECB903FAC87401D2BDCD /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5CCECBA03FAC8F801D2BDCD /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

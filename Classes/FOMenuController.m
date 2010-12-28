@@ -61,7 +61,7 @@
     i = random() % i;
     word = [words objectAtIndex: i];
     
-    newFloater = [[FOFloaterController alloc] initWithMenuController:self];
+    newFloater = [[FOFloaterController alloc] init];
     if (![NSBundle loadNibNamed: @"FOFloater" owner: newFloater]) {
         NSLog(@"Error loading Nib for document!");
     } else {
@@ -102,12 +102,13 @@
 
 - (void)addWordsFromFile:(NSString*)fileName {
     NSArray *newWords;
+    NSError* error = nil;
+    newWords = [[NSString stringWithContentsOfFile:fileName encoding:NSUTF16StringEncoding error:&error] componentsSeparatedByString:@","];
     
-    newWords = [[NSString stringWithContentsOfFile: fileName] componentsSeparatedByString: @","];
-    
-    for(id loopItem in newWords)
-        [words addObject: [loopItem stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]]];
-
+    for(id loopItem in newWords) {
+        loopItem = [loopItem stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        [words addObject: loopItem];
+	}
 }
 
 

@@ -23,13 +23,9 @@
 {
     IBOutlet FOView *myView;
     IBOutlet NSTextField *textField;
-    FOMenuController *menuController;
 }
 
--(id)initWithMenuController:(FOMenuController*)menuController;
-
-- (IBAction)closeWord:(id)sender;
-
 - (void)setText:(NSString *)text;
-- (void)close;
+-(IBAction)closeWindow:(id)sender;
+
 @end

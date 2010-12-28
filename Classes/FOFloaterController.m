@@ -19,21 +19,8 @@
 
 @implementation FOFloaterController
 
--(id)initWithMenuController:(FOMenuController*)menuController;
+- (void)setText:(NSString *) text;
 {
-	self = [super init];
-    if (self) {
-    	self->menuController = menuController;
-    }
-    return self;
-}
-
-- (IBAction)closeWord:(id)sender;
-{
-	[menuController closeWords:sender];    
-}
-
-- (void)setText:(NSString *) text {
     // Fixa till så att _ och sådant ordnar sig
     NSRect newFrame;
     NSString *myText;
@@ -80,11 +67,10 @@
     
     [[self window] display];
     
-} 
-
-- (void)close {
-    [[self window] close];
-    [self dealloc];
 }
 
+-(IBAction)closeWindow:(id)sender;
+{
+	[self close];
+}
 @end
