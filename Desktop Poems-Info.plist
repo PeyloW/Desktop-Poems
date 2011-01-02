@@ -5,7 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>${PRODUCT_NAME}</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>2011 Fredrik Olsson</string>
 	<key>CFBundleIconFile</key>
 	<string>Desktop Poems Icon.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -14,11 +16,11 @@
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CFBundleShortVersionString</key>
 	<string>1.1</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
